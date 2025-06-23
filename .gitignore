@@ -210,4 +210,5 @@ __marimo__/
 #  These files are often used to store local settings or environment variables.
 #  They are typically user-specific and should not be shared in version control.
 config.yaml
+state.yaml
 *.session
