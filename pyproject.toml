@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "telesiphon"
+version = "0.1.0"
+description = "TeleSiphon is a lighweight and flexible Telegram feed relay tool."
+authors = ["Mayk <7395296+y0k4i-1337@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telethon = "^1.40.0"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
