@@ -1,0 +1,18 @@
+telegram:
+  api_id: 123456
+  api_hash: "YOUR_API_HASH"
+
+sources:
+  - type: "channel"
+    name: "@sample_channel"              # Public channel username
+
+  - type: "group_topic"
+    group: "@sample_group"            # Group username
+    topic_id: 12345                  # Forum topic ID inside the group
+
+  - type: "group_topic"
+    group: "@sample_group"
+    topic_id: 67890
+
+slack:
+  webhook_url: "https://hooks.slack.com/services/TXXXX/BXXXX/XXXXXXXXXX"
