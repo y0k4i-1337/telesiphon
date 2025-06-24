@@ -191,7 +191,7 @@ async def main():
                     # set in config.yaml)
                     if "slack" in config and "webhook_url" in config["slack"]:
                         slack_text = (
-                            f"*{topic}*\n\n"
+                            f"*{topic}* (msg_id: {message.id})\n\n"
                             f"{message.text}"
                         )
                         await send_to_slack(
