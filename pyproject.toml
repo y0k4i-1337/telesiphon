@@ -5,6 +5,7 @@ description = "TeleSiphon is a lighweight and flexible Telegram feed relay tool.
 authors = ["Mayk <7395296+y0k4i-1337@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
